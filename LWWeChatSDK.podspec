@@ -15,7 +15,9 @@ Pod::Spec.new do |s|
   
   s.source       = { :git => 'https://github.com/sunhr/LWWeChatSDK.git', :tag => 'v#{spec.version}' }
   s.source_files = "WeChatSDK/"
+  s.exclude_files = "Test/"
   s.vendored_libraries = "WeChatSDK/libWeChatSDK.a"
+  s.preserve_paths = "WeChatSDK/README.txt", "WeChatSDK/libWeChatSDK.a"
   
   s.frameworks = [
   'Foundation',
