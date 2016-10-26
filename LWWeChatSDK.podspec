@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
   
-  s.source       = { :git => 'https://github.com/sunhr/LWWeChatSDK.git', :tag => 'v#{spec.version}' }
+  s.source       = { :git => 'https://github.com/sunhr/LWWeChatSDK.git', :tag => '{spec.version}' }
   s.source_files = "WeChatSDK/"
   s.exclude_files = "Test/"
   s.vendored_libraries = "WeChatSDK/libWeChatSDK.a"
