@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   
   s.source       = { :http => "https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.4.zip" }
-  s.source_files = "./"
-  s.vendored_libraries = "libWeChatSDK.a"
+  s.source_files = "WeChatSDK/"
+  s.vendored_libraries = "WeChatSDK/libWeChatSDK.a"
   
   s.frameworks = [
   'Foundation',
