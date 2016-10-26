@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode8
-xcode_project: Test/LWWeChatSDKTest.xcworkspace
+xcode_project: Test/LWWeChatSDKTest.xcodeproj
 xcode_scheme: LWWeChatSDKTest
