@@ -1,0 +1,7 @@
+platform :ios, '10.0'
+
+target 'LWWeChatSDKTest' do
+
+  pod 'LWWeChatSDK', :git => 'https://github.com/sunhr/LWWeChatSDK.git'
+
+end
