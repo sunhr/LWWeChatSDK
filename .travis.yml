@@ -6,14 +6,13 @@ before_install:
     - locale
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
     - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
-	- pod --version
-	- xcpretty --version
-	- xcodebuild -version
-	- xcodebuild -showsdks
-	
+    - pod --version
+    - xcpretty --version
+    - xcodebuild -version
+    - xcodebuild -showsdks
+
 script:
-	- xcodebuild clean build -workspace Test/LWWeChatSDKTest.xcworkspace -scheme 'LWWeChatSDKTest' -configuration Debug -sdk iphonesimulator | xcpretty -c
-	
+    - xcodebuild clean build -workspace Test/LWWeChatSDKTest.xcworkspace -scheme 'LWWeChatSDKTest' -configuration Debug -sdk iphonesimulator | xcpretty -c
+
 after_success:
-	- echo Success
-	
+    - echo Success
