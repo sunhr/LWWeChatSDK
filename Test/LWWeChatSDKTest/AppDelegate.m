@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WXApi.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    BOOL wxInstalled = [WXApi isWXAppInstalled];
+    
+    if (wxInstalled) {
+        NSLog(@"Yes");
+    } else {
+        NSLog(@"No");
+    }
+    
     return YES;
 }
 
