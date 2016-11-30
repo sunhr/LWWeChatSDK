@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LWWeChatSDK"
-  s.version      = "1.7.4"
+  s.version      = "1.7.5"
   s.summary      = "WeChatSDK"
   s.description  = <<-DESC
   Updated WeChatSDK for CocoaPods
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
   
-  s.source       = { :git => 'https://github.com/sunhr/LWWeChatSDK.git', :tag => '1.7.4' }
+  s.source       = { :git => 'https://github.com/sunhr/LWWeChatSDK.git', :tag => '1.7.5' }
   s.source_files = "WeChatSDK/"
   s.exclude_files = "Test/"
   s.vendored_libraries = "WeChatSDK/libWeChatSDK.a"
@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   s.frameworks = [
   'Foundation',
   'SystemConfiguration',
-  'CoreTelephony'
+  'CoreTelephony',
+  'CFNetwork'
   ]
   s.libraries = [
   'z',
