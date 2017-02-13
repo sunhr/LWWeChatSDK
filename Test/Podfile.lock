@@ -1,21 +1,16 @@
 PODS:
-  - LWWeChatSDK (1.7.4)
+  - LWWeChatSDK (1.7.6)
 
 DEPENDENCIES:
-  - LWWeChatSDK (from `https://github.com/sunhr/LWWeChatSDK.git`)
+  - LWWeChatSDK (from `../`)
 
 EXTERNAL SOURCES:
   LWWeChatSDK:
-    :git: https://github.com/sunhr/LWWeChatSDK.git
-
-CHECKOUT OPTIONS:
-  LWWeChatSDK:
-    :commit: 20dbfbcce2fe48443ba9bb62a112026b11f06526
-    :git: https://github.com/sunhr/LWWeChatSDK.git
+    :path: ../
 
 SPEC CHECKSUMS:
-  LWWeChatSDK: 2989dae74058d4bbc6d4b1771a85db5fe837f1ba
+  LWWeChatSDK: 1e6d285b77fd15c3d7acd4ee5a50c4306dbda44d
 
-PODFILE CHECKSUM: 80d9da357a3e8507d2ba98450b509f40ac5d9ff4
+PODFILE CHECKSUM: 800a79d520d0d269b705ef0138a0ce39fdd8cbaf
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0.beta.3

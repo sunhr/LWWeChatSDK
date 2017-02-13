@@ -1,1 +1,1 @@
-../../../LWWeChatSDK/WeChatSDK/WechatAuthSDK.h
+../../../../../WeChatSDK/WechatAuthSDK.h

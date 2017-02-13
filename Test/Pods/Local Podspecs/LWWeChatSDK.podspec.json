@@ -1,6 +1,6 @@
 {
   "name": "LWWeChatSDK",
-  "version": "1.7.4",
+  "version": "1.7.6",
   "summary": "WeChatSDK",
   "description": "Updated WeChatSDK for CocoaPods",
   "homepage": "https://open.weixin.qq.com",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/sunhr/LWWeChatSDK.git",
-    "tag": "{spec.version}"
+    "tag": "1.7.6"
   },
   "source_files": "WeChatSDK/",
   "exclude_files": "Test/",
@@ -26,11 +26,12 @@
   "frameworks": [
     "Foundation",
     "SystemConfiguration",
-    "CoreTelephony"
+    "CoreTelephony",
+    "CFNetwork"
   ],
   "libraries": [
     "z",
     "c++",
-    "sqlite3.0"
+    "sqlite3"
   ]
 }
