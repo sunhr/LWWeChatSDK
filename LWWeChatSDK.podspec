@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LWWeChatSDK"
-  s.version      = "1.7.6"
+  s.version      = "1.7.7"
   s.summary      = "WeChatSDK"
   s.description  = <<-DESC
   Updated WeChatSDK for CocoaPods

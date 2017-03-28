@@ -1,5 +1,5 @@
 PODS:
-  - LWWeChatSDK (1.7.6)
+  - LWWeChatSDK (1.7.7)
 
 DEPENDENCIES:
   - LWWeChatSDK (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LWWeChatSDK: 1e6d285b77fd15c3d7acd4ee5a50c4306dbda44d
+  LWWeChatSDK: 3e44afe2225eb04d252dbe9278c65c270675b0c2
 
 PODFILE CHECKSUM: 800a79d520d0d269b705ef0138a0ce39fdd8cbaf
 
-COCOAPODS: 1.2.0.beta.3
+COCOAPODS: 1.2.0
