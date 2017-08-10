@@ -1,3 +1,12 @@
+
+## Deprecated
+
+On Aug 2017, WeChat Dev Team finally supported CocoaPods, please use the official pod instead.
+
+```
+pod 'WechatOpenSDK'
+```
+
 # LWWeChatSDK
 Updated WeChatSDK for CocoaPods  
    
